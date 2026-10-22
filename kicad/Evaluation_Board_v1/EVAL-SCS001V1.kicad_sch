@@ -3213,26 +3213,24 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "CSD18540Q5B"
-				(at 5.08 0 0)
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
@@ -3262,6 +3260,149 @@
 			)
 			(property "Description" "100A Id, 60V Vds, NexFET N-Channel Power MOSFET, 2.2mOhm Ron, 41nC Qg(typ), SON8 5x6mm"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Availability" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Check_prices" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description_1" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MF" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MP" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Price" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Purchase-URL" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SnapEDA_Link" ""
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3464,24 +3605,6 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
 					(hide yes)
 					(name "S"
 						(effects
@@ -3536,9 +3659,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3548,7 +3671,25 @@
 					(number "5"
 						(effects
 							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[1-3]"
+						(effects
+							(font
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -3916,16 +4057,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 212.09 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d29d611-59a7-46e4-b386-b2e9afa997f9")
-	)
-	(wire
-		(pts
 			(xy 184.15 48.26) (xy 187.96 48.26)
 		)
 		(stroke
@@ -4176,16 +4307,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 137.16) (xy 212.09 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e196b16-8422-4b9f-913f-161503e847cc")
-	)
-	(wire
-		(pts
 			(xy 218.44 62.23) (xy 218.44 59.69)
 		)
 		(stroke
@@ -4363,16 +4484,6 @@
 			(type default)
 		)
 		(uuid "6f0e27da-d33c-4565-8b87-fe32b5b26c0a")
-	)
-	(wire
-		(pts
-			(xy 201.93 139.7) (xy 212.09 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ccaa0a-cb66-4d3a-be9b-c28b593cc39e")
 	)
 	(wire
 		(pts
@@ -4756,16 +4867,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 127) (xy 212.09 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c732d1b8-ab76-4be8-8df3-3ee071f00214")
-	)
-	(wire
-		(pts
 			(xy 201.93 119.38) (xy 205.74 119.38)
 		)
 		(stroke
@@ -5045,7 +5146,7 @@
 		(uuid "7b89bced-51cf-45cb-98d9-a2313adbd520")
 	)
 	(label "CC2 Test"
-		(at 111.76 127 0)
+		(at 111.76 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5055,7 +5156,7 @@
 		(uuid "a301960e-2dce-40d3-ad35-9420ad840a2f")
 	)
 	(label "Vbus Test"
-		(at 44.45 44.45 0)
+		(at 57.15 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5825,7 +5926,7 @@
 		(pin "2"
 			(uuid "34567beb-902c-4b91-8e5e-97b318f1ccf9")
 		)
-		(pin "1"
+		(pin "[1-3]"
 			(uuid "b4cae4c0-2d38-4803-bf48-862b2caa3b2e")
 		)
 		(pin "5"
@@ -8529,10 +8630,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "95ac3613-4485-4e2e-aac2-b18db028ed16")
 		(property "Reference" "D1"
-			(at 218.44 104.1399 90)
+			(at 243.84 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8543,7 +8643,7 @@
 			)
 		)
 		(property "Value" "ASMB-MTB1-0A3A2"
-			(at 218.44 106.6799 90)
+			(at 260.096 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
