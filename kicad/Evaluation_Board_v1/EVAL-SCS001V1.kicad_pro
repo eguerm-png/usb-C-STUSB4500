@@ -779,7 +779,7 @@
         "uuid": "cc1f831b-8f89-4c01-ad4b-13a86b2cf79d"
       }
     ],
-    "used_designators": "#PWR11,A1,D2-5,J2,Q1,R3-9",
+    "used_designators": "#PWR11,A1,D2-5,J2,Q1-2,R3-9",
     "variants": []
   },
   "sheets": [
