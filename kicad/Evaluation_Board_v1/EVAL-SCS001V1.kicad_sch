@@ -3203,10 +3203,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "my_MOSFET:NMOS_SON_8pin"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Q_PMOS_GDS"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3216,29 +3213,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q1"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "NMOS_SON_8pin"
-				(at 5.08 0 0)
+			(property "Value" "STL6P3LLH6"
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3260,7 +3255,7 @@
 					)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(property "Description" "P-MOSFET transistor, gate/drain/source"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3271,7 +3266,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3282,7 +3277,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_SON_8pin_0_1"
+			(symbol "Q_PMOS_GDS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3321,6 +3316,18 @@
 				)
 				(polyline
 					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
@@ -3343,30 +3350,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(circle
 					(center 1.651 0)
 					(radius 2.794)
@@ -3376,6 +3359,18 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -3426,7 +3421,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -3438,7 +3433,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -3449,7 +3444,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_SON_8pin_1_1"
+			(symbol "Q_PMOS_GDS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3481,7 +3476,7 @@
 					(number "[1-3]"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -3499,7 +3494,7 @@
 					(number "[5-9]"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.635 0.635)
 							)
 						)
 					)
@@ -3624,12 +3619,6 @@
 		)
 	)
 	(junction
-		(at 218.44 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0aa6c494-f185-43ba-80a9-ee1cd0975831")
-	)
-	(junction
 		(at 144.78 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3652,6 +3641,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e3cf02f-cf19-46ff-bcf6-8681c52d99cc")
+	)
+	(junction
+		(at 195.58 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37096811-b34c-4d01-942d-76ef80f9cdd6")
 	)
 	(junction
 		(at 165.1 121.92)
@@ -3690,12 +3685,6 @@
 		(uuid "553d08f2-6a57-46e7-af36-2c9b397337c3")
 	)
 	(junction
-		(at 187.96 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "57b54234-91fe-433a-84ec-2930cb8708ae")
-	)
-	(junction
 		(at 88.9 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3726,10 +3715,22 @@
 		(uuid "9b4b6b66-68c0-43a7-8b66-1ba32d201174")
 	)
 	(junction
+		(at 218.44 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b70c362-fe68-4c04-9fba-92783dd8d6b1")
+	)
+	(junction
 		(at 163.83 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a38b2eec-1de0-41f9-b1db-f392054284b6")
+	)
+	(junction
+		(at 187.96 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e004c4-44a0-4049-9231-8d6bc6b28cfd")
 	)
 	(junction
 		(at 129.54 116.84)
@@ -3778,12 +3779,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e47cad73-8a17-464f-9c17-a31535bb2150")
-	)
-	(junction
-		(at 195.58 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbcd8fe1-5c2c-4c98-b1fb-a821f17ce4ee")
 	)
 	(wire
 		(pts
@@ -3997,16 +3992,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 55.88) (xy 195.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e4ce5d8-c4b1-4b40-a9a7-de20e92a2502")
-	)
-	(wire
-		(pts
 			(xy 132.08 133.35) (xy 132.08 134.62)
 		)
 		(stroke
@@ -4157,16 +4142,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 48.26) (xy 218.44 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b7f38f1-da57-45b9-b741-49317218f532")
-	)
-	(wire
-		(pts
 			(xy 175.26 93.98) (xy 194.31 93.98)
 		)
 		(stroke
@@ -4204,6 +4179,16 @@
 			(type default)
 		)
 		(uuid "51d6a63c-e1a9-49c2-b3e2-c5e639ffbb66")
+	)
+	(wire
+		(pts
+			(xy 195.58 55.88) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547d209f-039e-43cd-b7ae-723cc12cf073")
 	)
 	(wire
 		(pts
@@ -4377,6 +4362,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b44e4a8-43f5-4d38-a45b-3ccc8e5f31f0")
+	)
+	(wire
+		(pts
 			(xy 55.88 48.26) (xy 88.9 48.26)
 		)
 		(stroke
@@ -4434,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "9ae2bd96-f3da-48ca-8947-6bef1acb5ba3")
-	)
-	(wire
-		(pts
-			(xy 187.96 59.69) (xy 195.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae8bc81-916c-4b18-99ae-585ccec7f643")
 	)
 	(wire
 		(pts
@@ -4537,13 +4522,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 48.26) (xy 190.5 48.26)
+			(xy 200.66 48.26) (xy 218.44 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa730b43-fa52-435e-b61c-8be39c6cce2d")
+		(uuid "a9e94ff0-94c6-4994-9695-682a68a2fff3")
 	)
 	(wire
 		(pts
@@ -4807,6 +4792,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 48.26) (xy 190.5 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76c5564-4d96-4d7c-ad20-16309c2ce1e1")
+	)
+	(wire
+		(pts
 			(xy 29.21 93.98) (xy 54.61 93.98)
 		)
 		(stroke
@@ -4824,16 +4819,6 @@
 			(type default)
 		)
 		(uuid "eded650f-1f28-4ed5-928b-47940d1d3986")
-	)
-	(wire
-		(pts
-			(xy 195.58 59.69) (xy 196.85 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef13cc88-1496-4261-8f8d-3c84af16d252")
 	)
 	(wire
 		(pts
@@ -4874,6 +4859,16 @@
 			(type default)
 		)
 		(uuid "f1f35f92-4fc2-4979-923f-732f92d06f82")
+	)
+	(wire
+		(pts
+			(xy 195.58 59.69) (xy 196.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f45c27ef-a526-4ca4-899d-c33ab240a012")
 	)
 	(wire
 		(pts
@@ -5075,7 +5070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09646b6e-a4ba-4813-8bb3-d8f9daadcd24")
-		(property "Reference" "D4"
+		(property "Reference" "D11"
 			(at 243.84 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5086,7 +5081,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ESDA25P35"
 			(at 243.84 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5304,90 +5299,7 @@
 		(instances
 			(project "EVAL-SCS001V1"
 				(path "/cc1f831b-8f89-4c01-ad4b-13a86b2cf79d"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "my_MOSFET:NMOS_SON_8pin")
-		(at 195.58 50.8 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1feb5ec1-b79a-4076-8b5e-a681658cef4a")
-		(property "Reference" "Q1"
-			(at 195.58 44.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "fill-in-part-no"
-			(at 195.58 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "24-24-converter:MOSFET_CSD18540Q5B"
-			(at 198.12 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 195.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "[5-9]"
-			(uuid "6898cdbc-7033-437c-9140-9ca60871571c")
-		)
-		(pin "[1-3]"
-			(uuid "81479e42-380d-4d55-9c59-fc30ed53a821")
-		)
-		(pin "4"
-			(uuid "2303648a-61bd-4343-81c0-37e31f095346")
-		)
-		(instances
-			(project "EVAL-SCS001V1"
-				(path "/cc1f831b-8f89-4c01-ad4b-13a86b2cf79d"
-					(reference "Q1")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -8310,7 +8222,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ASMB-MTB1-0A3A2"
+		(property "Value" "LD20"
 			(at 260.096 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,6 +9487,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GDS")
+		(at 195.58 50.8 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf247744-e1ee-4bde-b5e5-726605bef804")
+		(property "Reference" "Q1"
+			(at 195.58 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STL6P3LLH6"
+			(at 195.58 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+			(at 198.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/drain/source"
+			(at 195.58 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "[1-3]"
+			(uuid "c863eeaa-93b5-4ade-9f5d-c2a317046729")
+		)
+		(pin "[5-9]"
+			(uuid "9afcd2ce-9f91-4a6c-b0d0-f8b9843668f1")
+		)
+		(pin "4"
+			(uuid "31299850-3c23-4784-9323-3f7b8a82e421")
+		)
+		(instances
+			(project "EVAL-SCS001V1"
+				(path "/cc1f831b-8f89-4c01-ad4b-13a86b2cf79d"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 134.62 0)
 		(unit 1)
@@ -10556,7 +10551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec53f059-a406-434c-b1dc-24a4e2ae4024")
-		(property "Reference" "D5"
+		(property "Reference" "D50"
 			(at 91.44 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10567,7 +10562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "ESDA25P35"
 			(at 91.44 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10785,7 +10780,7 @@
 		(instances
 			(project "EVAL-SCS001V1"
 				(path "/cc1f831b-8f89-4c01-ad4b-13a86b2cf79d"
-					(reference "D5")
+					(reference "D50")
 					(unit 1)
 				)
 			)
