@@ -4980,6 +4980,16 @@
 		)
 		(uuid "cdad1cca-bda0-4326-a64f-86a2c063a7a0")
 	)
+	(label "VOUT"
+		(at 208.28 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f868b9bc-4a6e-43ca-97f1-eac519fe1fab")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 163.83 101.6 0)
