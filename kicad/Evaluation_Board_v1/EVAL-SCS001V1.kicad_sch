@@ -6269,7 +6269,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
 			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6346,7 +6346,7 @@
 				)
 			)
 		)
-		(property "Purchase-URL" ""
+		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/10164359-00011LF/18443702?s=N4IgTCBcDaIIwAY4DYAsBmArATgLQILjgBkAxEAXQF8g"
 			(at 54.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6988,7 +6988,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+		(property "Description" "TVS DIODE 3VWM SOT23-3"
 			(at 132.08 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +7032,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 132.08 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7132,6 +7132,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 132.08 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "ESDA5V3L"
 			(at 132.08 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8496,7 +8507,7 @@
 				)
 			)
 		)
-		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+		(property "Description" "IC USB CONTROLLER I2C 24QFN"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -8540,7 +8551,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -8640,6 +8651,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 186.69 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "STUSB4500QTR"
 			(at 186.69 127 0)
 			(hide yes)
 			(show_name no)
@@ -10594,7 +10616,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6464/ESDA7P60-1U1M.pdf"
 			(at 88.9 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +10627,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "TVS DIODE 22VWM 41VC 1610"
 			(at 88.9 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10671,7 +10693,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 88.9 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -10748,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Purchase-URL" ""
+		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/ESDA25P35-1U1M/6230124?s=N4IgTCBcDaIKIGUAiBBMBWACgZnSAugL5A"
 			(at 88.9 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -10771,6 +10793,17 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
+			(at 88.9 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MfgNo" "ESDA25P35-1U1M"
 			(at 88.9 71.12 90)
 			(hide yes)
 			(show_name no)
