@@ -2521,7 +2521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6464/ESDA7P60-1U1M.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2534,7 +2534,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode"
+		(property "Description" "TVS DIODE 22VWM 41VC 1610"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2612,7 +2612,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2703,7 +2703,7 @@
 				)
 			)
 		)
-		(property "Purchase-URL" ""
+		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/stmicroelectronics/ESDA25P35-1U1M/6230124?s=N4IgTCBcDaIKIGUAiBBMBWACgZnSAugL5A"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2735,6 +2735,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d3f812d-0b34-45ab-a4ea-02188fb596ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MfgNo" "ESDA25P35-1U1M"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84e2e59d-e644-47ed-aa59-c5308ba9df9f")
 			(effects
 				(font
 					(size 1 1)
@@ -3603,7 +3616,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "Amphenol ICC (FCI)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3694,7 +3707,7 @@
 				)
 			)
 		)
-		(property "Purchase-URL" ""
+		(property "Purchase-URL" "https://www.digikey.com/en/products/detail/amphenol-cs-fci/10164359-00011LF/18443702?s=N4IgTCBcDaIIwAY4DYAsBmArATgLQILjgBkAxEAXQF8g"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3804,26 +3817,6 @@
 			)
 			(layer "Dwgs.User")
 			(uuid "54db8dd6-a33d-4a3c-8e2c-5a461736a4e9")
-		)
-		(fp_line
-			(start -1 -6.25)
-			(end 1 -6.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "Dwgs.User")
-			(uuid "8ca0e6fa-03ba-4065-947d-e6d5594d2990")
-		)
-		(fp_line
-			(start 0 -7.25)
-			(end 0 -5.25)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(layer "Dwgs.User")
-			(uuid "0ea416f6-5dc4-4958-a340-ee6867091904")
 		)
 		(pad "A5" smd rect
 			(at -0.5 -6.48 270)
@@ -3968,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT23"
+		(property "Description" "TVS DIODE 3VWM SOT23-3"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4030,7 +4023,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4153,6 +4146,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3fb83c9-da59-4909-a175-75ae69c1d04a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MfgNo" "ESDA5V3L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f86e4fb5-1119-47cf-a183-3783f5e2b91e")
 			(effects
 				(font
 					(size 1 1)
@@ -7584,7 +7590,7 @@
 				)
 			)
 		)
-		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+		(property "Description" "IC USB CONTROLLER I2C 24QFN"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7646,7 +7652,7 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" ""
+		(property "MANUFACTURER" "STMicroelectronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7769,6 +7775,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "179f7edf-316f-4f1f-9b63-b0d3b0af6c12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MfgNo" "STUSB4500QTR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e22efa7c-cd84-4057-90ca-fb0c2a4fa98d")
 			(effects
 				(font
 					(size 1 1)
@@ -8781,6 +8800,12 @@
 		(path "/bf247744-e1ee-4bde-b5e5-726605bef804")
 		(sheetname "/")
 		(sheetfile "EVAL-SCS001V1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "4" "5" "1" "2" "3")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10834,60 +10859,12 @@
 		(uuid "b7463037-4fa5-445b-8351-883d07f76dc3")
 	)
 	(segment
-		(start 106.85 103.325635)
-		(end 106.85 102.414365)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "02673a2b-6e2f-4389-aa39-119465f132e3")
-	)
-	(segment
-		(start 107.494365 103.97)
-		(end 106.85 103.325635)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "2ee8b13d-0322-4604-9f9f-6a84c8330006")
-	)
-	(segment
-		(start 109.39 103.97)
-		(end 107.494365 103.97)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "3c5423be-b8eb-4257-85f2-49de8d5efcaf")
-	)
-	(segment
-		(start 101.77 87.174365)
-		(end 103.505 85.439365)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "49487d14-a0cf-41ed-a191-0da38ac99357")
-	)
-	(segment
-		(start 101.77 97.334365)
+		(start 101.77 99.23)
 		(end 101.77 87.174365)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(A1-A5)")
-		(uuid "78ec2685-245e-41c3-82e1-4a5e9500f733")
-	)
-	(segment
-		(start 103.505 82.4825)
-		(end 103.8 82.1875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "b249d75b-57b2-4895-bb85-1a0a7b16fff9")
-	)
-	(segment
-		(start 110.49 102.87)
-		(end 109.39 103.97)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(A1-A5)")
-		(uuid "cce731c4-b960-4bdf-8064-f4d9d6cfbee6")
+		(uuid "077eee8d-9859-4e38-8926-ec8086cec378")
 	)
 	(segment
 		(start 103.505 85.439365)
@@ -10895,15 +10872,79 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(A1-A5)")
-		(uuid "d5af01cc-7e27-4193-b800-41bf62454c22")
+		(uuid "1175b1b3-23e8-466d-85dc-480c6e4eb66e")
 	)
 	(segment
-		(start 106.85 102.414365)
-		(end 101.77 97.334365)
+		(start 110.49 102.87)
+		(end 109.39 103.97)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "Net-(A1-A5)")
-		(uuid "dbd4fcf1-df2e-4e36-98e2-bf57b3a803d2")
+		(uuid "14e9dafb-8620-45d5-8644-f78377176ff3")
+	)
+	(segment
+		(start 105.865635 101.77)
+		(end 104.31 101.77)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "24cf0ed5-87cb-4cf1-8e3b-c9ef23e94cb0")
+	)
+	(segment
+		(start 103.505 82.4825)
+		(end 103.8 82.1875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "2dea2c87-ac29-464d-a715-3e39ad43b520")
+	)
+	(segment
+		(start 101.77 87.174365)
+		(end 103.505 85.439365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "74aeb6a7-2f03-4de5-b606-f985a1346657")
+	)
+	(segment
+		(start 109.39 103.97)
+		(end 107.494365 103.97)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "8438cff8-baf4-463e-963c-5fb904a18253")
+	)
+	(segment
+		(start 106.51 102.414365)
+		(end 105.865635 101.77)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "921fa66e-d5b2-4772-b10a-9cafc5349213")
+	)
+	(segment
+		(start 107.494365 103.97)
+		(end 106.51 102.985635)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "a3f766b9-80aa-4666-906c-dee96a6f8ba1")
+	)
+	(segment
+		(start 106.51 102.985635)
+		(end 106.51 102.414365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "a78e1c63-7702-486d-b481-d8687609669b")
+	)
+	(segment
+		(start 104.31 101.77)
+		(end 101.77 99.23)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(A1-A5)")
+		(uuid "e7dbb2cb-2ecb-4548-bb18-bdf1653efb73")
 	)
 	(segment
 		(start 101.6 64.77)

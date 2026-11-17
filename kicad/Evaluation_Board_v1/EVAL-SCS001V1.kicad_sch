@@ -3464,6 +3464,24 @@
 					)
 				)
 				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
 					(name "S"
@@ -3474,24 +3492,6 @@
 						)
 					)
 					(number "[1-3]"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "[5-8]"
 						(effects
 							(font
 								(size 0.635 0.635)
@@ -9586,7 +9586,7 @@
 		(pin "[1-3]"
 			(uuid "c863eeaa-93b5-4ade-9f5d-c2a317046729")
 		)
-		(pin "[5-8]"
+		(pin "5"
 			(uuid "9afcd2ce-9f91-4a6c-b0d0-f8b9843668f1")
 		)
 		(pin "4"
