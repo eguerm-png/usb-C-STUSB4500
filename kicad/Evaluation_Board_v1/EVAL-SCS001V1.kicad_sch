@@ -8243,7 +8243,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTST-C19HE1WT?"
+		(property "Value" "LTST-C19HE1WT"
 			(at 257.81 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9550,7 +9550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "my_USB:STL6P3LLH6_VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
