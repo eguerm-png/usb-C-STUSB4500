@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Arduino Library") (type "") (uri "${KIPRJMOD}/arduino-kicad-library-master/footprints/arduino-library.pretty") (options "") (descr ""))
+)
